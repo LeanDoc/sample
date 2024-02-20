@@ -19,7 +19,7 @@ stages {
     stage('Deploy') {
         environment {
             TOMCAT_HOME = '/opt/tomcat'
-            WAR_FILE = 'target/sample.war'
+            WAR_FILE = 'sample.war'
         }
         
         steps {
